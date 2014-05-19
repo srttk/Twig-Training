@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>For Loop</title>
+</head>
+<body>
+<h1>For Loop</h1>
+	{% for name in names %}
+		<h2>{{name}}</h2>
+	{% endfor %}
+<h1>Another For loop</h1>
+	<ul>
+		{% for link in links %}
+			<li><a href="{{link.url}}">{{link.title}}</a></li>
+		{%endfor %}
+	</ul>
+</body>
+</html>
