@@ -1,4 +1,3 @@
-
 <?php
 include '../Twig_autoload.php';
 $loader=new Twig_Loader_Filesystem('templates'); //Setting Template folder
