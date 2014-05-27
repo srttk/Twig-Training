@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	{% block head %}
+	<title>{% block title%}{% endblock %}</title>
+	{% endblock %}
 </head>
 <body>
 <h1>Hello Layout</h1>
+
+	<div class="content">{% block content %} {%endblock %}</div>
 
 </body>
 </html>
