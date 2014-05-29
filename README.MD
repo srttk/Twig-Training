@@ -1,3 +1,3 @@
 # Twig Training Course
 
-Using Twig Version *1.5.2*
+Using Twig Version *1.5.1*
