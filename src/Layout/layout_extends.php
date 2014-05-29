@@ -3,4 +3,5 @@ include '../Twig_autoload.php';
 $loader=new Twig_Loader_Filesystem('templates');
 $twig=new Twig_Environment($loader);
 
-echo $twig->render('base.html');
+$layout=$twig->loadTemplate('base.html');
+$twig->render('child.html');
